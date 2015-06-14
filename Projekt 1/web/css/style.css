@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -162,10 +156,19 @@ span.logo-clr {
   min-height: 700px;
   background-size: cover;
 }
+.banner-ramka {
+  background: url(../images/ramka.jpg)no-repeat;
+  background-position:  center 50px;
+  min-height: 650px;
+  /*width: 90%;*/
+  background-size: contain;
+}
+
+
 .banner-main {
-  padding: 14em 0em 0em 0em;
+  padding: 7em 0em 0em 0em;
   text-align: right;
-  width: 55%;
+  width: 50%;
   float: right;
 }
 .banner-main h2 {
@@ -180,6 +183,34 @@ span.logo-clr {
   color: #c2c2c2;
   line-height: 1.5em;
 }
+
+
+.banner-lekcja {
+  padding: 14em 10em 10em 10em;
+  text-align: center;
+  width: 80%;
+  float: center;
+}
+.banner-lekcja h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #7487a8;
+  font-family: 'SintonyRegular';
+}
+.banner-lekcja p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #c2c2c2;
+  line-height: 1.5em;
+}
+
+.div {
+	border:5px solid #F00;
+	padding:15px;
+	background-color:#DFF;
+}
+
+
 .bann-btn {
   margin: 2em 0em 0em 0em;
 }
