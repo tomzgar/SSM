@@ -105,13 +105,13 @@ span.menu {
 .logo h1 a {
   font-size: 1em;
   font-weight: 700;
-  color: #c2c2c2;
+  color: #7487a8;
   text-decoration: none;
   font-family: 'SintonyRegular';
 }
 span.logo-clr {
   font-weight: 400;
-  color: #a89574;
+  color: #9e2d1b;
 }
 /* Effect 5: same word slide in */
 .top-nav ul li a {
@@ -174,7 +174,7 @@ span.logo-clr {
 .banner-main h2 {
   font-size: 2em;
   font-weight: 700;
-  color: #a89574;
+  color: #7487a8;
   font-family: 'SintonyRegular';
 }
 .banner-main p {
@@ -204,12 +204,6 @@ span.logo-clr {
   line-height: 1.5em;
 }
 
-.div {
-	border:5px solid #F00;
-	padding:15px;
-	background-color:#DFF;
-}
-
 
 .bann-btn {
   margin: 2em 0em 0em 0em;
@@ -224,8 +218,8 @@ span.logo-clr {
   text-decoration:none;
 }
 .bann-btn a:hover {
-	background:#a89574;
-	border: 1px solid #a89574;
+	background:#7487a8;
+	border: 1px solid #7487a8;
 	text-decoration:none;
 }
 .banner-bottom {
@@ -352,19 +346,19 @@ span.logo-clr {
 }
 span.glyphicon.glyphicon-education {
   font-size: 4em;
-  color: #a89574;
+  color: #7487a8;
 }
 span.glyphicon.glyphicon-lamp {
   font-size: 3.5em;
-  color: #a89574;
+  color: #7487a8;
 }
 span.glyphicon.glyphicon-hourglass {
   font-size: 3.5em;
-  color: #a89574;
+  color: #7487a8;
 }
 span.glyphicon.glyphicon-certificate {
   font-size: 3.5em;
-  color: #a89574;
+  color: #7487a8;
 }
 .recent-posts {
   padding: 4em 0em 4em 0em;

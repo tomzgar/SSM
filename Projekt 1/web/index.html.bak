@@ -3,8 +3,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
 <!DOCTYPE html><html>
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>Online School A Education School category Flat bootstrap Responsive
-      Website Template | Home :: w3layouts</title>
+    <title>Algorytm genetyczny</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.0.min.js"></script>
@@ -13,7 +12,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
-</script> <meta name="keywords" content="Online School Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+</script> 
     <!--Google Fonts-->
     <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"
 
@@ -41,7 +40,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
       <div class="container">
         <div style="height: 60px;" class="header-main">
           <div class="logo">
-            <h1><a href="index.html">W-4<span class="logo-clr">PWR</span></a></h1>
+            <h1><a href="index.html"><img src="images/eka.jpg" alt=""><span class="logo-clr">PWR</span></a></h1>
           </div>
           <div class="head-right">
             <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
@@ -120,7 +119,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
         <div class="work-bottom">
           <div class="col-md-3 portfolio-wrapper"> <a href="images/b-w1.jpg" class="b-link-stripe b-animate-go  swipebox"
 
-              title="Image Title"> <img src="images/w1.jpg" alt="" class="img-responsive">
+              title="Image Title"> <img src="images/b-w1.jpg" alt="" class="img-responsive">
               <div class="b-wrapper">
                 <h2 class="b-animate b-from-left    b-delay03"><img src="images/link.png"
 
@@ -134,7 +133,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
           </div>
           <div class="col-md-3 portfolio-wrapper"> <a href="images/b-w2.jpg" class="b-link-stripe b-animate-go  swipebox"
 
-              title="Image Title"> <img src="images/w2.jpg" alt="" class="img-responsive">
+              title="Image Title"> <img src="images/b-w2.jpg" alt="" class="img-responsive">
               <div class="b-wrapper">
                 <h2 class="b-animate b-from-left    b-delay03"><img src="images/link.png"
 
@@ -148,7 +147,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
           </div>
           <div class="col-md-3 portfolio-wrapper"> <a href="images/b-w3.jpg" class="b-link-stripe b-animate-go  swipebox"
 
-              title="Image Title"> <img src="images/w3.jpg" alt="" class="img-responsive">
+              title="Image Title"> <img src="images/b-w3.jpg" alt="" class="img-responsive">
               <div class="b-wrapper">
                 <h2 class="b-animate b-from-left    b-delay03"><img src="images/link.png"
 
@@ -162,7 +161,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
           </div>
           <div class="col-md-3 portfolio-wrapper"> <a href="images/b-w4.jpg" class="b-link-stripe b-animate-go  swipebox"
 
-              title="Image Title"> <img src="images/w4.jpg" alt="" class="img-responsive">
+              title="Image Title"> <img src="images/b-w4.jpg" alt="" class="img-responsive">
               <div class="b-wrapper">
                 <h2 class="b-animate b-from-left    b-delay03"><img src="images/link.png"
 
