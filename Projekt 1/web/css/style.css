@@ -186,9 +186,9 @@ span.logo-clr {
 
 
 .banner-lekcja {
-  padding: 14em 10em 10em 10em;
+  padding: 5em 5em 5em 5em;
   text-align: center;
-  width: 80%;
+  width: 100%;
   float: center;
 }
 .banner-lekcja h2 {
@@ -222,6 +222,30 @@ span.logo-clr {
 	border: 1px solid #7487a8;
 	text-decoration:none;
 }
+
+.bann-btn-lekcja {
+  margin: 0em 0em 0em 0em;
+}
+.bann-btn-lekcja a {
+  font-size: 1em;
+  font-weight: 400;
+  color: #7487a8;
+  border: 1px solid #7487a8;
+  padding: 0.5em 0.9em 0.5em 0.9em;
+  border-radius: 5px;
+  text-decoration:none;
+  text-align: right;
+  float: right;
+  position: absolute; bottom:5%;
+}
+.bann-btn-lekcja a:hover {
+	background:#7487a8;
+	color: #fff;
+	border: 1px solid #7487a8;
+	text-decoration:none;
+	text-align: right;
+}
+
 .banner-bottom {
   padding: 2em 0em 2em 0em;
   background: #f4f4f4;
