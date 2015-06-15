@@ -1,0 +1,115 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 UnportedLicense URL: http://creativecommons.org/licenses/by/3.0/-->
+<!DOCTYPE html><html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Algorytm genetyczny</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script> <!--Google Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"
+      type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
+      rel="stylesheet" type="text/css">
+    <!-- start-smoth-scrolling -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+  </head>
+  <body>
+    <!-- //end-smoth-scrolling -->
+    <!--header start here-->
+    <div class="header">
+      <div class="container">
+        <div style="height: 60px;" class="header-main">
+          <div class="logo">
+            <h1><a href="index.html">W-4<span class="logo-clr">PWR</span></a></h1>
+          </div>
+          <div class="head">
+            <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
+                  alt=""></span>
+              <ul class="res">
+                <li><a href="9.html"><span data-hover="&lt;==="> &lt;=== </span></a></li>
+                <li><a>10/20</a></li>
+                <li><a href="11.html"><span data-hover="===&gt;"> ===&gt; </span></a></li>
+                <div class="clearfix"> </div>
+              </ul>
+              <!-- script-for-menu -->
+              <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+              <!-- /script-for-menu --> </div>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100" style="width: 50%;">50% </div>
+        </div>
+      </div>
+    </div>
+    <!--header end here-->
+    <!--banner start here-->
+    <div class="banner">
+      <div class="banner-ramka">
+        <div class="container">
+          <div class="banner-lekcja">
+            <h2>ALGORYTM - mutacja</h2>
+            <p><br>
+            </p>
+            Żeby dodatkowo różnicować populację wprowadza się mutacje do
+            genotypu osbników. Mutacja może polegać na zmianie losowego bitu na
+            inny.<br>
+            <br>
+            Dzięki temu algorytm będzie miał możliwość wyjścia z minimum i
+            przeskoczenia w inną dziedzinę. Zwiększy to szansę na znalezienie
+            lepszego rozwiązania. Ale nie zwasze musi się do tego przyczynić.<br>
+            <br>
+            <p><br>
+              <img src="data:image/gif;base64,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"
+                alt=""></p>
+            <div style="text-align: right;" class="bann-btn-lekcja"> <a href="11.html">Dalej</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--banner end here-->
+    <!--footer star here-->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-top">
+            <div class="col-md-3 footer-news">
+              <h4><span style="color: white;">Sieciowe Systemy Multimedialne</span>&nbsp;
+                </h4></div>
+          </div>
+          <div class="foter-bottom">
+            <p class="footer-copyrts">Wykonali: Jan Kołacinski i Tomasz Zgarda </p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+    <!--footer end here-->
+  </body>
+</html>
