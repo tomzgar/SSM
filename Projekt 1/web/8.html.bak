@@ -43,9 +43,9 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
             <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
                   alt=""></span>
               <ul class="res">
-                <li><a href="6.html"><span data-hover="&lt;==="> &lt;=== </span></a></li>
-                <li><a>7/30</a></li>
-                <li><a href="8.html"><span data-hover="===&gt;"> ===&gt; </span></a></li>
+                <li><a href="7.html"><span data-hover="&lt;==="> &lt;=== </span></a></li>
+                <li><a>8/30</a></li>
+                <li><a href="9.html"><span data-hover="===&gt;"> ===&gt; </span></a></li>
                 <div class="clearfix"> </div>
               </ul>
               <!-- script-for-menu -->
@@ -62,8 +62,8 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
           <div class="clearfix"> </div>
         </div>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="23" aria-valuemin="0"
-            aria-valuemax="100" style="width: 23%;"> 23% </div>
+          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+            aria-valuemax="100" style="width: 40%;">40% </div>
         </div>
       </div>
     </div>
@@ -73,21 +73,21 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
       <div class="banner-ramka">
         <div class="container">
           <div class="banner-lekcja">
-            <h2>ALGORYTM - losowanie populacji</h2>
+            <h2>ALGORYTM - ocena osobników</h2>
             <p><br>
             </p>
-            Pierwszym etapem algorytmu jest wylosowanie populacji początkowej.
-            Ta populacja to zbiór rozwiązań problemu, ktróry chcemy rozwiązać.<br>
+            Z obecnej populacji wybieramy najlepiej przystosowane osobniki,
+            czyli takie które są bliższe rozwiązania problemu. Dokonujemy tego
+            za pomocą funkcji oceny.<br>
             <br>
             <p><img src="data:image/gif;base64,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"
                 alt=""></p>
             <br>
             <br>
-            W kolejncyh etapach będziemy starali się ulepszać tę populację
-            porzez wymianę gorszych (mniej przystosowanych) osobników na lepsze.<br>
+            Wyselekcjonowane osobniki przechodzą do kolejnego etapu.<br>
             <p><span style="color: black;"><br>
               </span></p>
-            <div style="text-align: right;" class="bann-btn-lekcja"> <a href="8.html">Dalej</a>
+            <div style="text-align: right;" class="bann-btn-lekcja"> <a href="9.html">Dalej</a>
             </div>
           </div>
         </div>
