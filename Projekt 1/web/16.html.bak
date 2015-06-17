@@ -89,44 +89,48 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
               <table style="width: 100%" border="0">
                 <tbody>
                   <tr>
-                    <td style="width: 20%"><text style="margin-right">Genotyp</text></td>
+                    <td style="width: 20%"><text style="margin-right">Metoda
+                        ruletki<br>
+                      </text></td>
                     <td style="width: 10%"><input id="button1" class="" style="margin-left"
                         value="Wybierz" type="button"></td>
-                    <td style="width: 70%">Pojedynczy przedstawiciel populacji.
-                      Na bazie jego genów mogą powstać kolejne osobniki.</td>
+                    <td style="width: 70%">Łączenie genów różnych osobnik w calu
+                      uzyskania potmoka.</td>
                     <td style="width: 10%"><input id="buttonOdp1" class="" style="margin-left"
                         value="Wybierz" type="button"></td>
                   </tr>
                   <tr>
-                    <td>Chromosom</td>
+                    <td>Metoda rankingowa</td>
                     <td><input id="button2" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
-                    <td>Pojedyncza informacja przechowywana w chromosomie.</td>
+                    <td>Losowa zmiana pojedynczego genu. Dzięki niej można
+                      przeskoczyć do innego obszaru rozwiązań.</td>
                     <td><input id="buttonOdp2" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
                   </tr>
                   <tr>
-                    <td>Gen</td>
+                    <td>Mutacja</td>
                     <td><input id="button3" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
-                    <td>Ciąg podstawowych informacji.</td>
+                    <td>Ocena przydatności osobnika, tego jak dobrze jest przystosowany.</td>
                     <td><input id="buttonOdp3" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
                   </tr>
                   <tr>
-                    <td>Osobnik</td>
+                    <td>Krzyżowanie</td>
                     <td><input id="button4" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
-                    <td>Zbiór osobników. Powstają w niej kolejne pokolenia.</td>
+                    <td>Krzyżowanie polegające na losowym wyborze rodzica z
+                      wyselekcjonowanej grupy.</td>
                     <td><input id="buttonOdp4" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
                   </tr>
                   <tr>
-                    <td>Populacja</td>
+                    <td>Funkcja przystosowania</td>
                     <td><input id="button5" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
-                    <td>Składa się z chromosomów. Sa tam zakodowane informacje o
-                      osobniku.</td>
+                    <td>Metoda krzyżowania, w której każdy osobnik może zostać
+                      rodzicem</td>
                     <td><input id="buttonOdp5" class="" style="margin-left" value="Wybierz"
                         type="button"></td>
                   </tr>
