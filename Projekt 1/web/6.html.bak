@@ -94,7 +94,7 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
                 <tbody>
                   <tr>
                     <td style="width: 20%"><text style="margin-right">Genotyp</text></td>
-                    <td style="width: 10%"><input id="button1" class="" style="margin-left"
+                    <td style="width: 10%"><input id="button1" class="" style="margin-left" 
 
                         value="Wybierz" type="button"></td>
                     <td style="width: 70%">Pojedynczy przedstawiciel populacji.
