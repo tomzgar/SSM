@@ -1,5 +1,11 @@
 window.onload = initAll;
 
+var b1 = 0;
+var b2 = 0;
+var b3 = 0;
+var b4 = 0;
+var b5 = 0;
+
 /*fucntion zmienKolorOdp(kolor){
 	document.getElementById("buttonOdp1").style.background = kolor;
 	document.getElementById("buttonOdp2").style.background = kolor;
@@ -40,8 +46,7 @@ function initAll(){
 }
 
 function funkcja(){
-
-	document.getElementById(this.id).style.background = "blue";
+	document.getElementById(this.id).style.background = "#81F7F3";
 	
 	document.getElementById("buttonOdp1").disabled = false;
 	document.getElementById("buttonOdp2").disabled = false;
@@ -51,19 +56,24 @@ function funkcja(){
 	
 	switch(this.id){
 		case "button1" :
+		b1 = 1;
 			break;
 		case "button2" :
+		b2 = 1;
 			break;
 		case "button3" :
+		b3 = 1;
 			break;
 		case "button4" :
+		b4 = 1;
 			break;
 		case "button5" :
+		b5 = 1;
 			break;
 		case "buttonOdp1" :
-			if(document.getElementById("button4").style.background == "blue"){
-				document.getElementById("button4").style.display = "hidden";
-				document.getElementById(this.id).style.display = "hidden";
+			if(b4 == 1){
+				document.getElementById("button4").style.background = "hidden";
+				document.getElementById(this.id).style.background = "hidden";
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 				
@@ -76,13 +86,18 @@ function funkcja(){
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 				alert("zla odpowiedz");
-				if(document.getElementById("button1").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button2").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button3").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button4").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button5").style.display == "blue") document.getElementById("button4").style.display = "black";
+				if(document.getElementById("button1").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button2").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button3").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button4").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button5").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
 				
 				document.getElementById(this.id).style.background = "black";
+				b1 = 0;
+				b2 = 0;
+				b3 = 0;
+				b4 = 0;
+				b5 = 0;
 			}
 			document.getElementById("buttonOdp1").disabled = true;
 			document.getElementById("buttonOdp2").disabled = true;
@@ -92,9 +107,9 @@ function funkcja(){
 			this.background = "red";
 			break;
 		case "buttonOdp2" : 
-			if(document.getElementById("button3").style.background == "blue"){
-				document.getElementById("button3").style.display = "hidden";
-				document.getElementById(this.id).style.display = "hidden";
+			if(b3 == 1){
+				document.getElementById("button3").style.background = "hidden";
+				document.getElementById(this.id).style.background = "hidden";
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 
@@ -105,13 +120,18 @@ function funkcja(){
 			}
 			else{
 				alert("zla odpowiedz");
-				if(document.getElementById("button1").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button2").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button3").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button4").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button5").style.display == "blue") document.getElementById("button4").style.display = "black";
+				if(document.getElementById("button1").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button2").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button3").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button4").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button5").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
 				
 				document.getElementById(this.id).style.background = "black";
+				b1 = 0;
+				b2 = 0;
+				b3 = 0;
+				b4 = 0;
+				b5 = 0;
 			}
 			document.getElementById("buttonOdp1").disabled = true;
 			document.getElementById("buttonOdp2").disabled = true;
@@ -120,9 +140,9 @@ function funkcja(){
 			document.getElementById("buttonOdp5").disabled = true;
 			break;
 		case "buttonOdp3" :
-			if(document.getElementById("button2").style.background == "blue"){
-				document.getElementById("button2").style.display = "hidden";
-				document.getElementById(this.id).style.display = "hidden";
+			if(b2 == 1){
+				document.getElementById("button2").style.background = "hidden";
+				document.getElementById(this.id).style.background = "hidden";
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 
@@ -133,13 +153,18 @@ function funkcja(){
 			}
 			else{
 				alert("zla odpowiedz");
-				if(document.getElementById("button1").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button2").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button3").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button4").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button5").style.display == "blue") document.getElementById("button4").style.display = "black";
+				if(document.getElementById("button1").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button2").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button3").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button4").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button5").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
 				
 				document.getElementById(this.id).style.background = "black";
+								b1 = 0;
+				b2 = 0;
+				b3 = 0;
+				b4 = 0;
+				b5 = 0;
 			}
 			document.getElementById("buttonOdp1").disabled = true;
 			document.getElementById("buttonOdp2").disabled = true;
@@ -148,9 +173,9 @@ function funkcja(){
 			document.getElementById("buttonOdp5").disabled = true;
 			break;
 		case "buttonOdp4" :
-			if(document.getElementById("button5").style.background == "blue"){
-				document.getElementById("button5").style.display = "hidden";
-				document.getElementById(this.id).style.display = "hidden";
+			if(b4 == 1){
+				document.getElementById("button5").style.background = "hidden";
+				document.getElementById(this.id).style.background = "hidden";
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 
@@ -161,13 +186,18 @@ function funkcja(){
 			}
 			else{
 				alert("zla odpowiedz");
-				if(document.getElementById("button1").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button2").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button3").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button4").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button5").style.display == "blue") document.getElementById("button4").style.display = "black";
+				if(document.getElementById("button1").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button2").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button3").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button4").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button5").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
 				
 				document.getElementById(this.id).style.background = "black";
+								b1 = 0;
+				b2 = 0;
+				b3 = 0;
+				b4 = 0;
+				b5 = 0;
 			}
 			document.getElementById("buttonOdp1").disabled = true;
 			document.getElementById("buttonOdp2").disabled = true;
@@ -176,9 +206,9 @@ function funkcja(){
 			document.getElementById("buttonOdp5").disabled = true;
 			break;
 		case "buttonOdp5" : 
-			if(document.getElementById("button1").style.background == "blue"){
-				document.getElementById("button1").style.display = "hidden";
-				document.getElementById(this.id).style.display = "hidden";
+			if(b1 == 1){
+				document.getElementById("button1").style.background = "hidden";
+				document.getElementById(this.id).style.background = "hidden";
 				//zmienKolorOdp("black");
 				//zmienKolor("black");
 
@@ -189,13 +219,18 @@ function funkcja(){
 			}
 			else{
 				alert("zla odpowiedz");
-				if(document.getElementById("button1").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button2").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button3").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button4").style.display == "blue") document.getElementById("button4").style.display = "black";
-				if(document.getElementById("button5").style.display == "blue") document.getElementById("button4").style.display = "black";
+				if(document.getElementById("button1").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button2").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button3").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button4").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
+				if(document.getElementById("button5").style.background == "#81F7F3") document.getElementById("button4").style.background = "black";
 				
 				document.getElementById(this.id).style.background = "black";
+								b1 = 0;
+				b2 = 0;
+				b3 = 0;
+				b4 = 0;
+				b5 = 0;
 			}
 			document.getElementById("buttonOdp1").disabled = true;
 			document.getElementById("buttonOdp2").disabled = true;
