@@ -39,7 +39,7 @@ if (!$("input[@name=q1]:checked").val() ||
 !$("input[@name=q4]:checked").val() ||            
 !$("input[@name=q5]:checked").val()           
 ) {            
-alert("You're not done yet!");        
+alert("Odpowiedz na wszystkie pytania!");        
 }        
 
 else {            
@@ -72,7 +72,7 @@ if (cat4) { categories.push(cat4name) };
 if (cat5) { categories.push(cat5name) };                        
 if (cat11) { categories.push(cat11name) };                        
 
-var catStr = 'You answered the following questions incorrectly: ' + categories.join(', ') + '';                     
+var catStr = 'Odpowiedziałeś niepoprawnie na pytanie: ' + categories.join(', ') + '';                     
 $("#categorylist").text(catStr);                        
 $("#categorylist").show("slow");            
 
@@ -248,24 +248,19 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
                 <button class="bann-btn-lekcja-wyniki"> Pokaż odpowiedzi!</button>
               </div>
               <div id="category1">
-                <p> <strong>Question 1:</strong> The correct answer is the <strong>Answer
-                    1</strong>.</p>
+                <p> <strong>Pytanie 1:</strong> Poprawna odpowiedź to: <strong>A</strong>.</p>
               </div>
               <div id="category2">
-                <p> <strong>Question 2:</strong> The correct answer is <strong>Answer
-                    2</strong>.</p>
+                <p> <strong>Pytanie 2:</strong> Poprawna odpowiedź to: <strong>B</strong>.</p>
               </div>
               <div id="category3">
-                <p> <strong>Question 3:</strong> The correct answer is <strong>Answer
-                    3</strong>.</p>
+                <p> <strong>Pytanie 3:</strong> Poprawna odpowiedź to: <strong>C</strong>.</p>
               </div>
               <div id="category4">
-                <p> <strong>Question 4:</strong> The correct answer is <strong>Answer
-                    4</strong>.</p>
+                <p> <strong>Pytanie 4:</strong> Poprawna odpowiedź to: <strong>D</strong>.</p>
               </div>
               <div id="category5">
-                <p> <strong>Question 5:</strong> The correct answer is <strong>Answer
-                    1</strong>.</p>
+                <p> <strong>Pytanie 5:</strong> Poprawna odpowiedź to: <strong>A</strong>.</p>
               </div>
               <div id="category11">
                 <p> Odpowiedziałeś na wszystkie pytania!</p>
