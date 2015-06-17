@@ -39,7 +39,7 @@ if (!$("input[@name=q1]:checked").val() ||
 !$("input[@name=q4]:checked").val() ||            
 !$("input[@name=q5]:checked").val()           
 ) {            
-alert("You're not done yet!");        
+alert("Odpowiedz na wszystkie pytania!");        
 }        
 
 else {            

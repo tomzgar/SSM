@@ -1,0 +1,153 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 UnportedLicense URL: http://creativecommons.org/licenses/by/3.0/-->
+<!DOCTYPE html><html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Algorytm genetyczny</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script> <!--Google Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"
+      type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
+      rel="stylesheet" type="text/css">
+    <!-- start-smoth-scrolling -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+  </head>
+  <body>
+    <!-- //end-smoth-scrolling -->
+    <!--header start here-->
+    <div class="header">
+      <div class="container">
+        <div style="height: 60px;" class="header-main">
+          <div class="logo">
+            <h1><a href="index.html">W-4<span class="logo-clr">PWR</span></a></h1>
+          </div>
+          <div class="head-right">
+            <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
+                  alt=""></span>
+              <!-- script-for-menu -->
+              <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+              <!-- /script-for-menu --> </div>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+    <!--header end here-->
+    <!--banner start here-->
+    <div class="banner"><br>
+      <br>
+      <div class="work">
+        <div class="container">
+          <div class="work-top">
+            <h3>Polecamy równiez inne lekcje interaktywne </h3>
+            <p>Pamiętaj, że w informatyce jest wiele różnych innych algorytmów.
+              Zachęcamy Cię do poczytania również o nich:</p>
+          </div>
+          <div class="work-bottom">
+            <div class="col-md-3 portfolio-wrapper"> <a href="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w1.jpg"
+                class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                <img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w1.jpg"
+                  alt="" class="img-responsive">
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left    b-delay03"><img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/link.png"
+                      alt=""></h2>
+                </div>
+              </a>
+              <div class="work-details">
+                <h3>Sieci neuronowe</h3>
+                <p>Our plane is unbelivable</p>
+              </div>
+            </div>
+            <div class="col-md-3 portfolio-wrapper"> <a href="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w2.jpg"
+                class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                <img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w2.jpg"
+                  alt="" class="img-responsive">
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left    b-delay03"><img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/link.png"
+                      alt=""></h2>
+                </div>
+              </a>
+              <div class="work-details">
+                <h3>Drzewa decyzyjne</h3>
+                <p>Our plane is unbelivable</p>
+              </div>
+            </div>
+            <div class="col-md-3 portfolio-wrapper"> <a href="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w3.jpg"
+                class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                <img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w3.jpg"
+                  alt="" class="img-responsive">
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left    b-delay03"><img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/link.png"
+                      alt=""></h2>
+                </div>
+              </a>
+              <div class="work-details">
+                <h3>Algorytm RSA</h3>
+                <p>Our plane is unbelivable</p>
+              </div>
+            </div>
+            <div class="col-md-3 portfolio-wrapper"> <a href="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w4.jpg"
+                class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                <img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/b-w4.jpg"
+                  alt="" class="img-responsive">
+                <div class="b-wrapper">
+                  <h2 class="b-animate b-from-left    b-delay03"><img src="file:///C:/PWR/SEM%2010/SSM/GIT/SSM/Projekt%201/web/images/link.png"
+                      alt=""></h2>
+                </div>
+              </a>
+              <div class="work-details">
+                <h3>AES vs DES</h3>
+                <p>Our plane is unbelivable</p>
+              </div>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <!--banner end here-->
+    <!--footer star here-->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-top">
+            <div class="col-md-3 footer-news">
+              <h4><span style="color: white;">Sieciowe Systemy Multimedialne</span>&nbsp;
+                </h4></div>
+          </div>
+          <div class="foter-bottom">
+            <p class="footer-copyrts">Wykonali: Jan Kołacinski i Tomasz Zgarda </p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+    <!--footer end here-->
+  </body>
+</html>
