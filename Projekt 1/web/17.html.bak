@@ -73,10 +73,11 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
       <div class="banner-ramka">
         <div class="container">
           <div class="banner-lekcja">
-            <h2>Ćwiczenie</h2>
+            <h2>Po co algorytm genetyczny</h2>
             <p><br>
             </p>
-            WYMAGANE FAJERWERKI<br>
+            Algorytmy genetyczne służą głównie do tego, żeby rozwiązywać zadania
+            optymalizacji.<br>
             &nbsp;<br>
             <div style="text-align: right;" class="bann-btn-lekcja"> <a href="18.html">Dalej</a>
             </div>
