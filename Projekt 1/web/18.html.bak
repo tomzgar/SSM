@@ -73,11 +73,14 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
       <div class="banner-ramka">
         <div class="container">
           <div class="banner-lekcja">
-            <h2>Ćwiczenie</h2>
+            <h2>Optymalizacja</h2>
             <p><br>
             </p>
-            WYMAGANE FAJERWERKI<br>
-            &nbsp;<br>
+            Optymalizacja to wyznaczenie spośród dopuszczalnych rozwiązań danego
+            problemu rozwiązania najlepszego ze względu na przyjęte kryterium
+            (wskaźnik) jakości (np. koszt, zysk, niezawodność)<br>
+            &nbsp; <br>
+            <br>
             <div style="text-align: right;" class="bann-btn-lekcja"> <a href="19.html">Dalej</a>
             </div>
           </div>
