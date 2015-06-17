@@ -292,6 +292,26 @@ span.logo-clr {
 /*	text-align: right;*/
 }
 
+
+.bann-btn-lekcja-wyniki button{
+  margin: 2em 0em 0em 0em;
+    font-size: 1em;
+  font-weight: 400;
+  color: #7487a8;
+  border: 1px solid #7487a8;
+  padding: 0.5em 0.9em 0.5em 0.9em;
+  border-radius: 5px;
+  text-decoration:none;
+}
+
+.bann-btn-lekcja-wyniki button:hover {
+	background:#7487a8;
+	color: #fff;
+	border: 1px solid #7487a8;
+	text-decoration:none;
+/*	text-align: right;*/
+}
+
 .banner-bottom {
   padding: 2em 0em 2em 0em;
   background: #f4f4f4;

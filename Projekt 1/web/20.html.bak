@@ -13,9 +13,11 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
 </script> <!--Google Fonts-->
-    <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"
+    <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"
+
       type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
+    <link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
+
       rel="stylesheet" type="text/css">
     <!-- start-smoth-scrolling -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -132,7 +134,8 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
             <h1><a href="index.html">W-4<span class="logo-clr">PWR</span></a></h1>
           </div>
           <div class="head">
-            <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
+            <div class="top-nav"> <span class="menu"> <img src="images/icon.png"
+
                   alt=""></span>
               <ul class="res">
                 <li><a href="19.html"><span data-hover="&lt;==="> &lt;=== </span></a></li>
@@ -153,7 +156,8 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
           <div class="clearfix"> </div>
         </div>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+
             aria-valuemax="100" style="width: 100%;">100% </div>
         </div>
       </div>
@@ -171,64 +175,100 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
             swoją wiedzę i odpowiedz na poniższe pytania:<br>
             <br>
             <div style="text-align: left;">
-              <p class="question">1. What is the answer to this question?</p>
-              <ul class="answers">
-                <input name="q1" value="a" id="q1a" type="radio"><label for="q1a">Answer
-                  1</label><br>
-                <input name="q1" value="b" id="q1b" type="radio"><label for="q1b">Answer
-                  2</label><br>
-                <input name="q1" value="c" id="q1c" type="radio"><label for="q1c">Answer
-                  3</label><br>
-                <input name="q1" value="d" id="q1d" type="radio"><label for="q1d">Answer
-                  4</label><br>
-              </ul>
-              <p class="question">2. What is the answer to this question?</p>
-              <ul class="answers">
-                <input name="q2" value="a" id="q2a" type="radio"><label for="q2a">Answer
-                  1</label><br>
-                <input name="q2" value="b" id="q2b" type="radio"><label for="q2b">Answer
-                  2</label><br>
-                <input name="q2" value="c" id="q2c" type="radio"><label for="q2c">Answer
-                  3</label><br>
-                <input name="q2" value="d" id="q2d" type="radio"><label for="q2d">Answer
-                  4</label><br>
-              </ul>
-              <p class="question">3. What is the answer to this question?</p>
-              <ul class="answers">
-                <input name="q3" value="a" id="q3a" type="radio"><label for="q3a">Answer
-                  1</label><br>
-                <input name="q3" value="b" id="q3b" type="radio"><label for="q3b">Answer
-                  2</label><br>
-                <input name="q3" value="c" id="q3c" type="radio"><label for="q3c">Answer
-                  3</label><br>
-                <input name="q3" value="d" id="q3d" type="radio"><label for="q3d">Answer
-                  4</label><br>
-              </ul>
-              <p class="question">4. What is the answer to this question?</p>
-              <ul class="answers">
-                <input name="q4" value="a" id="q4a" type="radio"><label for="q4a">Answer
-                  1</label><br>
-                <input name="q4" value="b" id="q4b" type="radio"><label for="q4b">Answer
-                  2</label><br>
-                <input name="q4" value="c" id="q4c" type="radio"><label for="q4c">Answer
-                  3</label><br>
-                <input name="q4" value="d" id="q4d" type="radio"><label for="q4d">Answer
-                  4</label><br>
-              </ul>
-              <p class="question">5. What is the answer to this question?</p>
-              <ul class="answers">
-                <input name="q5" value="a" id="q5a" type="radio"><label for="q5a">Answer
-                  1</label><br>
-                <input name="q5" value="b" id="q5b" type="radio"><label for="q5b">Answer
-                  2</label><br>
-                <input name="q5" value="c" id="q5c" type="radio"><label for="q5c">Answer
-                  3</label><br>
-                <input name="q5" value="d" id="q5d" type="radio"><label for="q5d">Answer
-                  4</label><br>
-              </ul>
+              <table style="width: 1069px; height: 406px;">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p style="text-align: left;" class="question"><span style="color: black;">1.
+                          What is the answer to this question?</span></p>
+                      <ul class="answers">
+                        <input name="q1" value="a" id="q1a" type="radio"><label
+
+                          for="q1a">Answer 1</label><br>
+                        <input name="q1" value="b" id="q1b" type="radio"><label
+
+                          for="q1b">Answer 2</label><br>
+                        <input name="q1" value="c" id="q1c" type="radio"><label
+
+                          for="q1c">Answer 3</label><br>
+                        <input name="q1" value="d" id="q1d" type="radio"><label
+
+                          for="q1d">Answer 4</label><br>
+                      </ul>
+                      <p class="question"><span style="color: black;">2. What is
+                          the answer to this question?</span></p>
+                      <ul class="answers">
+                        <input name="q2" value="a" id="q2a" type="radio"><label
+
+                          for="q2a">Answer 1</label><br>
+                        <input name="q2" value="b" id="q2b" type="radio"><label
+
+                          for="q2b">Answer 2</label><br>
+                        <input name="q2" value="c" id="q2c" type="radio"><label
+
+                          for="q2c">Answer 3</label><br>
+                        <input name="q2" value="d" id="q2d" type="radio"><label
+
+                          for="q2d">Answer 4</label><br>
+                      </ul>
+                      <p class="question"><span style="color: black;">3. What is
+                          the answer to this question?</span></p>
+                      <ul class="answers">
+                        <input name="q3" value="a" id="q3a" type="radio"><label
+
+                          for="q3a">Answer 1</label><br>
+                        <input name="q3" value="b" id="q3b" type="radio"><label
+
+                          for="q3b">Answer 2</label><br>
+                        <input name="q3" value="c" id="q3c" type="radio"><label
+
+                          for="q3c">Answer 3</label><br>
+                        <input name="q3" value="d" id="q3d" type="radio"><label
+
+                          for="q3d">Answer 4</label><br>
+                      </ul>
+                    </td>
+                    <td>
+                      <p style="text-align: left;" class="question"><span style="color: black;">4.
+                          What is the answer to this question?</span></p>
+                      <ul class="answers">
+                        <input name="q4" value="a" id="q4a" type="radio"><label
+
+                          for="q4a">Answer 1</label><br>
+                        <input name="q4" value="b" id="q4b" type="radio"><label
+
+                          for="q4b">Answer 2</label><br>
+                        <input name="q4" value="c" id="q4c" type="radio"><label
+
+                          for="q4c">Answer 3</label><br>
+                        <input name="q4" value="d" id="q4d" type="radio"><label
+
+                          for="q4d">Answer 4</label><br>
+                      </ul>
+                      <p class="question"><span style="color: black;">5. What is
+                          the answer to this question?</span></p>
+                      <ul class="answers">
+                        <input name="q5" value="a" id="q5a" type="radio"><label
+
+                          for="q5a">Answer 1</label><br>
+                        <input name="q5" value="b" id="q5b" type="radio"><label
+
+                          for="q5b">Answer 2</label><br>
+                        <input name="q5" value="c" id="q5c" type="radio"><label
+
+                          for="q5c">Answer 3</label><br>
+                        <input name="q5" value="d" id="q5d" type="radio"><label
+
+                          for="q5d">Answer 4</label><br>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
               <br>
-              <div id="results" class="bann-btn-lekcja"> <a href=""> Pokaż
-                  odpowiedzi! </a></div>
+
+              <button class="bann-btn-lekcja-wyniki"> Pokaż odpowiedzi!</button>
+ 
               <div id="category1">
                 <p> <strong>Question 1:</strong> The correct answer is the <strong>Answer
                     1</strong>.</p>
@@ -250,7 +290,7 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
                     1</strong>.</p>
               </div>
               <div id="category11">
-                <p> You answered them all right!</p>
+                <p> Odpowiedziałeś na wszystkie pytania!</p>
               </div>
             </div>
           </div>
@@ -275,5 +315,6 @@ e.custom(start,val,"");}});return true;});},queue:function(type,fn){if(jQuery.is
         </div>
       </div>
       <!--footer end here--> </div>
+    
   </body>
 </html>
