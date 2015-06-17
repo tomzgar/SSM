@@ -73,10 +73,12 @@ Author URL: http://w3layouts.comLicense: Creative Commons Attribution 3.0 Unport
       <div class="banner-ramka">
         <div class="container">
           <div class="banner-lekcja">
-            <h2>Ćwiczenie</h2>
+            <h2><span style="font-family: Calibri;">Film edukacyjny<br>
+              </span></h2>
             <p><br>
             </p>
-            WYMAGANE FAJERWERKI<br>
+            <iframe src="https://www.youtube.com/embed/pgaEE27nsQw" height="472"
+              width="630"> </iframe><br>
             &nbsp;<br>
             <div style="text-align: right;" class="bann-btn-lekcja"> <a href="13.html">Dalej</a>
             </div>
